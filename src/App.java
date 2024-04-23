@@ -4,8 +4,8 @@ public class App {
     public static void main(String[] args) throws Exception {
         // Inicialização das variáveis
         boolean gameMatchRandomNumberFinished = false;
-        int min = 20;
-        int max = 40;
+        int min = 10;
+        int max = 20;
         int attempts = 0;
 
         // Criação do objeto MatchRandomNumber
@@ -28,6 +28,7 @@ public class App {
         // Mensagem de encerramento
         if (gameMatchRandomNumberFinished) {
             System.out.println("Você terminou com " + attempts + " tentativas.");
+            gameMatchRandomNumber.displayMessage(attempts);
         }
     }
 }
