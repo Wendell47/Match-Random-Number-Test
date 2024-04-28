@@ -1,7 +1,7 @@
 ## Jogo de Adivinhação: Acerte o Número Aleatório
 
 
-Este é um simples jogo de adivinhação em Java, projetado para demonstrar o uso de estruturas condicionais (`if` e `else if`) e loops (`while`). O objetivo é adivinhar um número aleatório gerado pelo programa.
+Este é um simples jogo de adivinhação em Java, projetado para demonstrar o uso de estruturas condicionais (`if` e `else if`) e loops (`while`). O objetivo é adivinhar um número aleatório gerado pelo programa em um intervalo entre dois números.
 
 etapas do teste:
 
